@@ -29,6 +29,10 @@ struct ContentView: View {
             //check mark bouncing
             VStack {
                 Spacer()
+                
+                Text("Three example of SwiftUI Animation").bold().font(.largeTitle).foregroundColor(.white)
+                
+                Spacer()
                 HStack{
                     Text("Finish this Task").bold().opacity(isSubscribed ? 1.0 :0.5)
                     
